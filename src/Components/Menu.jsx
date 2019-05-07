@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 function Menu() {
     return (
-        <div>
+        <div className="menu-bar">
             <h1 className="title">
                 Manuel Balbás
             </h1>
