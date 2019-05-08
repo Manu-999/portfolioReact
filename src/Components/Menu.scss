@@ -1,9 +1,9 @@
 .menu-bar{
-    height: 100vh;
-    width: 30%;
+    overflow: hidden;
+    // width: 30vw;
     background-color: #69779b;
     // box-shadow: 2px 0px 20px #34383f;
-    
+    padding: 4%;
     .title{
         color: #d65a31;
         font-family: 'Permanent Marker', cursive;
