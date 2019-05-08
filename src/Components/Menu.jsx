@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Menu.scss';
 import Footer from './Footer';
 
@@ -12,10 +13,10 @@ function Menu() {
                 Web Developer
             </h2>
             <nav className="menu">
-                <li className="menu-item">Inicio</li>
-                <li className="menu-item">Sobre Mi</li>
-                <li className="menu-item">Proyectos</li>
-                <li className="menu-item">Contacto</li>
+                <Link className="menu-item">Inicio</Link>
+                <Link className="menu-item">¿Quién Soy?</Link>
+                <Link className="menu-item">Proyectos</Link>
+                <Link className="menu-item">Contacto</Link>
             </nav>
             <Footer />
         </div>

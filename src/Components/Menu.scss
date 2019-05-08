@@ -1,13 +1,23 @@
 .menu-bar{
     height: 100vh;
-    width: 30vw;
-    background-color: #393e46;
-}
-.menu{
-    display: flex;
-    flex-direction: column;
-    .menu-item {
-        all: unset;
+    width: 30%;
+    background-color: #69779b;
+    // box-shadow: 2px 0px 20px #34383f;
+    
+    .title{
+        color: #d65a31;
+        font-family: 'Permanent Marker', cursive;
     }
+    .subtitle{
+        color: #eeeeee;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        .menu-item{
+            text-decoration: none;
+            color: #eeeeee;
+            margin: 2%;
+        }
+    }    
 }
-
