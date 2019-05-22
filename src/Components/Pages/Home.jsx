@@ -7,6 +7,6 @@ function Home() {
             <h2 className="subtitle">FullStack Developer / Javascript Lover</h2>
         </div>
     )
-}
+};
 
 export default Home;

@@ -8,9 +8,7 @@ function Menu(props) {
 
     return (
         <div className="menu-bar">
-            <h1 className="title">
-                Manuel Balbás
-            </h1>
+            <img src="/images/mi-foto.png" alt="mi-foto" className="picture"></img>
             <h2 className="subtitle">
                 Web Developer
             </h2>

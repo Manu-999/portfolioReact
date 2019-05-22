@@ -1,15 +1,19 @@
 .menu-bar{
     overflow: hidden;
     // width: 30vw;
-    background-color: #69779b;
+    background-color: #0d1621;
     // box-shadow: 2px 0px 20px #34383f;
     padding: 4%;
+    .picture{
+        border-radius: 300px;
+    }
     .title{
         color: #d65a31;
         font-family: 'Permanent Marker', cursive;
     }
     .subtitle{
         color: #eeeeee;
+        font-size: 2em;
     }
     .menu{
         display: flex;
@@ -18,6 +22,7 @@
             text-decoration: none;
             color: #eeeeee;
             margin: 2%;
+            font-size: 1.5em;
         }
     }    
 }
