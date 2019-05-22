@@ -17,8 +17,8 @@ function Menu(props) {
             <nav className="menu">
                 <Link className="menu-item" to="/">Inicio</Link>
                 <Link className="menu-item" to="/about">¿De dónde salgo?</Link>
-                <Link className="menu-item">Proyectos</Link>
-                <Link className="menu-item">Contacto</Link>
+                <Link className="menu-item" to="/projects">Proyectos</Link>
+                <Link className="menu-item" to="/contact">Contacto</Link>
             </nav>
             <Footer />
         </div>
