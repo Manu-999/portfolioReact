@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Menu.scss';
 import Footer from './Footer';
 
@@ -15,10 +15,10 @@ function Menu(props) {
                 Web Developer
             </h2>
             <nav className="menu">
-                <Link className="menu-item" to="/">Inicio</Link>
-                <Link className="menu-item" to="/about">¿De dónde salgo?</Link>
-                <Link className="menu-item" to="/projects">Proyectos</Link>
-                <Link className="menu-item" to="/contact">Contacto</Link>
+                <NavLink className="menu-item" to="/">Inicio</NavLink>
+                <NavLink className="menu-item" to="/about">¿De dónde salgo?</NavLink>
+                <NavLink className="menu-item" to="/projects">Proyectos</NavLink>
+                <NavLink className="menu-item" to="/contact">Contacto</NavLink>
             </nav>
             <Footer />
         </div>
