@@ -6,13 +6,11 @@ function Contact() {
         <div className="contact">
             <h1 className="contact-title">Puedes contactar conmigo a través de este formulario o puedes verme en las redes</h1>
             <form className="contact-form">
-                <input type="text" placeholder="Nombre"></input>
-                <input type="email" placeholder="Email"></input>
-                <input type="textarea" placeholder="Deja aquí tu mensaje"></input>
-                <input type="button" value="Enviar"></input>
+                <input type="text" placeholder="Nombre" className="contact-input"></input>
+                <input type="email" placeholder="Email" className="contact-input"></input>
+                <textarea type="textarea" cols="50" wrap="hard" rows="3" placeholder="Deja aquí tu mensaje" className="contact-input"></textarea>
+                <input type="button" value="Enviar" className="contact-input contact-button"></input>
             </form>
-            <a href="https://github.com/Manu-999"><i className="fab fa-github social-icon"></i></a>
-            <a href="https://www.linkedin.com/in/manuel-balbas-arribas/"><i className="fab fa-linkedin social-icon"></i></a>
         </div>
     )
 };

@@ -1,0 +1,40 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    .contact-title{
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        margin: auto;
+        margin-bottom: 7%;
+        margin-top: 5%;
+        width: 60%;
+        text-align: center;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        font-size: 2em;
+        margin: auto;
+        .contact-input{
+            all: unset;
+            font-size: 1em;
+            border-bottom: solid 2px #f2842a;
+            margin-top: 10%;
+            text-align: center;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .contact-button{
+            width: 60%;
+            margin: auto;
+            margin-top: 10%;
+            cursor: pointer;
+            transition: width 0.5s ease;
+        }
+        .contact-button:hover{
+            width: 100%;
+            transition: all 0.9s ease;
+        }
+    }
+}
