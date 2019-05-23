@@ -9,9 +9,6 @@ function Menu(props) {
     return (
         <div className="menu-bar">
             <img src="/images/mi-foto.png" alt="mi-foto" className="picture"></img>
-            {/* <h2 className="subtitle">
-                Web Developer
-            </h2> */}
             <nav className="menu">
                 <NavLink className="menu-item" to="/">Inicio</NavLink>
                 <NavLink className="menu-item" to="/about">¿De dónde salgo?</NavLink>

@@ -11,10 +11,6 @@
         color: #d65a31;
         font-family: 'Permanent Marker', cursive;
     }
-    .subtitle{
-        color: #eeeeee;
-        font-size: 2em;
-    }
     .menu{
         display: flex;
         flex-direction: column;
@@ -27,6 +23,11 @@
             font-size: 2em;
             margin: 2%;
             font-family: 'Alegreya Sans SC', sans-serif;
+            transition: color 1s;
+        }
+        .menu-item:hover{
+            color: #f2842a;
+            transition: 0.8s;
         }
     }    
 }
