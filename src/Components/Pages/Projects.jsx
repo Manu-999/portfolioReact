@@ -9,15 +9,15 @@ function Projects() {
             <div className="projects-container">
                 <Project
                     title="Plataforma de viajes"
-                    name="viajes.jpg"
+                    name="travels.png"
                 />
                 <Project
                     title="Aplicación de tareas"
-                    name="todo.jpg"
+
                 />
                 <Project
                     title="Aplicación de películas"
-                    name="movies.jpg"
+                    name="movies.png"
                 />
             </div>
         </div>
