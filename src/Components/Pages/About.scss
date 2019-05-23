@@ -1,13 +1,29 @@
 .about{
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-evenly; 
+    &-title{
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 3.2em;
+    }
     .intro{
         color: white;
         font-size: 2em;
-        width: 60%;
+        width: 70%;
         border: solid 1px white;
+        border-radius: 7px;
+        padding: 1%;
+        font-family: 'Alegreya Sans SC', sans-serif;
     }
     .knowledge{
-        color: white;
-        font-size: 1.5em;
+        color: #f2842a;
+        font-size: 2em;
+        width: 40%;
+        font-family: 'Alegreya Sans SC', sans-serif;
     }
 }
