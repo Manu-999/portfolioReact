@@ -18,11 +18,15 @@
     .menu{
         display: flex;
         flex-direction: column;
+        margin: 2%;
+        margin: 2%;
+        margin-top: 20%;
         .menu-item{
             text-decoration: none;
             color: #eeeeee;
+            font-size: 2em;
             margin: 2%;
-            font-size: 1.5em;
+            font-family: 'Alegreya Sans SC', sans-serif;
         }
     }    
 }
