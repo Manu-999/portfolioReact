@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "portfolio backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_ENV=production || NODE_ENV=production || SET \"NODE_ENV=production\" && node server/",
+    "dev": "export NODE_ENV=development || NODE_ENV=development || SET \"NODE_ENV=development\" && nodemon server/"
+  },
+  "author": "Manuel Balbás",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0",
+    "handlebars": "^4.1.2",
+    "nodemailer": "^6.1.1",
+    "path": "^0.12.7"
+  }
+}
