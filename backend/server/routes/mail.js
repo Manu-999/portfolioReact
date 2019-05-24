@@ -2,6 +2,7 @@ const Email = require('../config/nodemailer');
 const data = require('./index');
 
 let message = {
+  from: '',
   to: 'manuelbalbas@gmail.com',
   subject: 'Portfolio',
   template: 'email',

@@ -15,7 +15,7 @@ Email.transporter = Mailer.createTransport({
     rejectUnauthorized: false
   }
 }, {
-    from: data.email,
+    from: 'ghnodemailer@gmail.com',
     header: []
   });
 
