@@ -1,7 +1,7 @@
 const Mailer = require('nodemailer');
 const Hbs = require('nodemailer-handlebars');
 const Path = require('path');
-const data = require('../routes/index');
+// const data = require('../routes/index');
 
 const Email = {};
 
