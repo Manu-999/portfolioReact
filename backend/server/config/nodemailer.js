@@ -1,6 +1,7 @@
 const Mailer = require('nodemailer');
 const Hbs = require('handlebars');
 const Path = require('path');
+const data = require('../routes/index');
 
 const Email = {};
 
@@ -14,7 +15,7 @@ Email.transporter = Mailer.createTransport({
     rejectUnauthorized: false
   }
 }, {
-    from: '',
+    from: data.email,
     header: []
   });
 

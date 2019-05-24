@@ -1,13 +1,17 @@
-const Email = require('../config/mailer');
+const Email = require('../config/nodemailer');
+const data = require('./index');
 
 let message = {
   to: 'manuelbalbas@gmail.com',
   subject: 'Portfolio',
   template: 'email',
   context: {
-    text: ''
+    title: data.name,
+    text: data.message
   }
 };
+
+console.log(message.context.name);
 
 const portfolioEmail = (res) => {
   Email.transporter.sendMail(message, (error, info) => {

@@ -5,9 +5,12 @@ router.get('/', (req, res) => {
 });
 
 router.post('/contact', (req, res) => {
-  const email = req.body;
-  res.status(200).send(email);
+  const data = req.body;
+  res.status(200).send(data);
+  // console.log(data);
 });
 
-module.exports = router;
+router.use('/mail', require('./mail'));
 
+
+module.exports = router;
