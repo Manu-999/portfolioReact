@@ -1,5 +1,5 @@
 const Mailer = require('nodemailer');
-const Hbs = require('handlebars');
+const Hbs = require('nodemailer-handlebars');
 const Path = require('path');
 const data = require('../routes/index');
 

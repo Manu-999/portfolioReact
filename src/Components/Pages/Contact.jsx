@@ -14,7 +14,7 @@ function Contact() {
 
         axios.post('http://localhost:8080/contact', body)
             .then((response) => {
-                console.log(response);
+                // console.log(response);
             })
             .catch((error) => {
                 console.log(error);
@@ -32,12 +32,16 @@ function Contact() {
                     type="text"
                     placeholder="Nombre"
                     className="contact-input"
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
                 >
                 </input>
                 <input
                     type="email"
                     placeholder="Email"
                     className="contact-input"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
                 >
                 </input>
                 <textarea
@@ -46,6 +50,8 @@ function Contact() {
                     wrap="hard"
                     rows="3"
                     placeholder="Deja aquí tu mensaje" className="contact-input"
+                    onChange={(e) => setMessage(e.target.value)}
+                    value={message}
                 >
                 </textarea>
                 <input

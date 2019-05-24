@@ -11,8 +11,6 @@ let message = {
   }
 };
 
-console.log(message.context.name);
-
 const portfolioEmail = (res) => {
   Email.transporter.sendMail(message, (error, info) => {
     if (error) {

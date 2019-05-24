@@ -10,7 +10,7 @@ router.post('/contact', (req, res) => {
   // console.log(data);
 });
 
-router.use('/mail', require('./mail'));
+router.use('/contact', require('./mail'));
 
 
 module.exports = router;
