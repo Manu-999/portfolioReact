@@ -16,7 +16,7 @@ Email.transporter = Mailer.createTransport({
   }
 }, {
     from: 'ghnodemailer@gmail.com',
-    header: []
+    headers: {}
   });
 
 Email.transporter.use('compile', Hbs({
